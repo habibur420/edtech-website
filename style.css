@@ -1,0 +1,40 @@
+/* slider style */
+.carousel-item img{
+    filter: brightness(50%);
+}
+/* tablet Device */
+@media screen and (max-width:992px) {
+    .carousel-caption h1{
+        font-size: 40px; }
+        .none{
+            display: none;
+        }
+}
+@media screen and (min-width:992px) {
+    .block{
+        display: none;
+    }
+}
+/* tablet Device */
+@media screen and (max-width:768px) {
+    .carousel-caption h1{
+        font-size: 30px; }
+}
+@media screen and (max-width:500px) {
+    .carousel-caption h1{
+        font-size: 18px;  
+    }
+    .carousel-caption p{
+        font-size: 10px;
+         
+    }
+}
+@media screen and (max-width:320px) {
+    .carousel-caption h1{
+     font-size: 12px;  }
+    .carousel-caption p{
+        font-size: 7px; }
+}
+
+
+
