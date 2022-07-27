@@ -9,11 +9,13 @@
         .none{
             display: none;
         }
+        .join{
+            text-align: center;
+        }
 }
 @media screen and (min-width:992px) {
     .block{
-        display: none;
-    }
+        display: none;}
 }
 /* tablet Device */
 @media screen and (max-width:768px) {
