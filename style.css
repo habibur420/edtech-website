@@ -21,6 +21,9 @@
 @media screen and (max-width:768px) {
     .carousel-caption h1{
         font-size: 30px; }
+        .successfull-info{
+            text-align: center;
+        }
 }
 @media screen and (max-width:500px) {
     .carousel-caption h1{
@@ -33,8 +36,8 @@
 }
 @media screen and (max-width:320px) {
     .carousel-caption h1{
-     font-size: 12px;  }
-    .carousel-caption p{
+     font-size: 10px;}
+    .normal-text{
         font-size: 7px; }
 }
 
