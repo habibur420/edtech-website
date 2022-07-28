@@ -1,8 +1,12 @@
-/* slider style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .carousel-item img{
     filter: brightness(45%);
 }
-/* tablet Device */
+.button-reg-1{
+    display: none;
+}
 @media screen and (max-width:992px) {
     .carousel-caption h1{
         font-size: 40px; }
@@ -11,6 +15,12 @@
         }
         .join{
             text-align: center;
+        }
+        .button-reg-2{
+            display: none;
+        }
+        .button-reg-1{
+            display: block;
         }
 }
 @media screen and (min-width:992px) {
@@ -26,6 +36,12 @@
 @media screen and (max-width:500px) {
     .carousel-item img{
         height: 500px;
+    }
+    .button-reg-1{
+        display: none;
+    }
+    .button-reg-2{
+        display: block;
     }
 }
 
