@@ -10,6 +10,9 @@ body{
 .button-reg-1{
     display: none;
 }
+.left-error{
+    right: 92%;
+}
 @media screen and (max-width:992px) {
     .carousel-caption h1{
         font-size: 40px; }
