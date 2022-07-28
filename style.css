@@ -1,3 +1,6 @@
+.primary-color{
+    background-color: #f4fafd;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -32,6 +35,9 @@ body{
         .carousel-item img{
             height: 500px;
         }
+        .carousel-item h1{
+            font-size: 30px;
+        }
 }
 @media screen and (max-width:500px) {
     .carousel-item img{
@@ -44,7 +50,3 @@ body{
         display: block;
     }
 }
-
-
-
-
